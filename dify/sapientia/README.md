@@ -6,7 +6,7 @@
 
 ### Description
 
-The Sapientia plugin is a Dify plugin designed for the knowledge base Q&A product of Shanghai Qiusuo Time Technology Co., Ltd. It aims to interact with remote servers through HTTP requests, query user provided text content, and return formatted response results. This plugin is designed for optimizing knowledge base Q&A scenarios, supporting retrieval of relevant information from specified servers and processing of returned reference content to generate user-friendly output.
+The Sapientia plugin is a Dify plugin designed for the knowledge base Q&A product of Shanghai Seek-Time Technology Co., Ltd. It aims to interact with remote servers through HTTP requests, query user provided text content, and return formatted response results. This plugin is designed for optimizing knowledge base Q&A scenarios, supporting retrieval of relevant information from specified servers and processing of returned reference content to generate user-friendly output.
 
 #### Main functions
 - Query processing: Based on the query text and scope entered by the user, send a request to the remote server to obtain relevant knowledge base content.
@@ -81,3 +81,4 @@ How to obtain an access token?
 
 #### Contact Information
 If you need technical support or feedback, please contact the technical support team of Shanghai Qiusuo Time Technology Co., Ltd.
+Github：https://github.com/DeepSophos/extensions

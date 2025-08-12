@@ -56,3 +56,5 @@ If you have any questions about this privacy policy, please contact the plugin d
 Shanghai Seek Time Technology Co., Ltd
 
 21st Floor, No. 1, Lane 339, Tongpu Road, Putuo District, Shanghai, china
+
+Github：https://github.com/DeepSophos/extensions
