@@ -10,7 +10,7 @@ from dify_plugin.entities.tool import ToolInvokeMessage
 
 class QueryTool(Tool):
     def _invoke(self, tool_parameters: dict[str, Any]) -> Generator[ToolInvokeMessage]:
-        self.origin = "http://www.sapientia.work:43013"
+        self.origin = "https://www.seek-time.com:43032"
         if tool_parameters["origin"]:
             self.origin = tool_parameters["origin"]
 

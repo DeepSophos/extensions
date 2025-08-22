@@ -1,6 +1,6 @@
 identity:
   name: "query"
-  author: "seek-time"
+  author: "SeekTime"
   label:
     en_US: "query"
     zh_Hans: "query"
@@ -54,15 +54,15 @@ parameters:
   - name: origin
     type: string
     required: false
-    default: "http://www.sapientia.work:43013"
+    default: "https://www.seek-time.com:43032"
     label:
       en_US: origin
       zh_Hans: origin
       pt_BR: origin
     human_description:
-      en_US: "Default value：http://www.sapientia.work:43013"
-      zh_Hans: "Default value：http://www.sapientia.work:43013"
-      pt_BR: "Default value：http://www.sapientia.work:43013"
+      en_US: "Default value：https://www.seek-time.com:43032"
+      zh_Hans: "Default value：https://www.seek-time.com:43032"
+      pt_BR: "Default value：https://www.seek-time.com:43032"
     llm_description: " "
     form: llm
 extra:

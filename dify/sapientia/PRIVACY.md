@@ -18,7 +18,7 @@ The plugin may collect and process the following types of user data during runti
 - No clear combination information is directly collected by the plugin.
 
 #### Data collection for third-party services
-The plugin makes HTTP requests to external servers` http://www.sapientia.work:43013 `Or user specified 'origin' interaction. The plugin itself does not directly store or process data.
+The plugin makes HTTP requests to external servers` https://www.seek-time.com:43032/ `Or user specified 'origin' interaction. The plugin itself does not directly store or process data.
 
 ### 2. Data usage
 
@@ -29,7 +29,7 @@ The access token provided by the user is used to verify the user's identity and 
 
 ### 3. data sharing
 
-The plugin itself does not directly share user data with third parties. However, the plugin sends the following data to the user specified remote server via HTTP request (default:` http://www.sapientia.work:43013 `）：
+The plugin itself does not directly share user data with third parties. However, the plugin sends the following data to the user specified remote server via HTTP request (default:` https://www.seek-time.com:43032/ `）：
 - Query Text (` text `)
 - Scope parameters (` scopes `)
 - Access Token
@@ -38,7 +38,7 @@ These data are processed by remote servers.
 
 ### 4. third-party services
 
-- **Remote Server**: The plugin makes HTTP requests to the server specified by the user (default:` http://www.sapientia.work:43013 `Interaction.
+- **Remote Server**: The plugin makes HTTP requests to the server specified by the user (default:` https://www.seek-time.com:43032/ `Interaction.
 - **No other third-party services**: The plugin does not rely on other third-party services (such as Slack, Google, etc.) for data processing.
 
 ### 5. Data Storage and Protection

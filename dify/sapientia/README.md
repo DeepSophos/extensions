@@ -1,12 +1,12 @@
-## sapientia
+## SeekTime Super Rag Component
 
-**Author:** seek-time
-**Version:** 0.0.1
+**Author:** SeekTime
+**Version:** 0.0.2
 **Type:** tool
 
 ### Description
 
-The Sapientia plugin is a Dify plugin designed for the knowledge base Q&A product of Shanghai Seek-Time Technology Co., Ltd. It aims to interact with remote servers through HTTP requests, query user provided text content, and return formatted response results. This plugin is designed for optimizing knowledge base Q&A scenarios, supporting retrieval of relevant information from specified servers and processing of returned reference content to generate user-friendly output.
+The SeekTime Super Rag Component is a Dify plugin designed for the knowledge base Q&A product of Shanghai Seek-Time Technology Co., Ltd. Automatic and precise slicing of document materials, powerful multimodal chart understanding ability, high accuracy of Q&A, and precise traceability of answers to the specific location of the original text, allowing you to immediately have the world's leading AI knowledge base capability!
 
 #### Main functions
 - Query processing: Based on the query text and scope entered by the user, send a request to the remote server to obtain relevant knowledge base content.
@@ -17,47 +17,45 @@ The Sapientia plugin is a Dify plugin designed for the knowledge base Q&A produc
 - Enterprise Knowledge Base Q&A: Integrate the knowledge base system of Shanghai Qiusuo Time Technology Co., Ltd. to provide users with accurate Q&A services.
 - Reference display: Present the reference content (such as images) in a visual way in the knowledge base to enhance the interactive experience.
 
-### Instructions for use
-
 #### Preconditions
-- **Server Access**: Need to access the knowledge base server of Shanghai Qiusuo Time Technology Co., Ltd. (default address:` http://www.sapientia.work:43013 `).
+- **Server Access**: Need to access the knowledge base server of Shanghai Qiusuo Time Technology Co., Ltd. (default address:` https://www.seek-time.com:43032 `).
 - Access Token: Users need to access the knowledge base system of Shanghai Qiusuo Time Technology Co., Ltd. to obtain the access token.
 - **Supported file formats**: The plugin processes server responses in JSON format, ensuring that the data format returned by the server is compatible.
 
 #### Installation steps
 1. **Obtain plugin**:
-- Download the Sapientia plugin from Dify Marketplace.
+- Download the SeekTime Super Rag Component from Dify Marketplace.
 - Reference [Shopify Plugin Development Document]（ https://docs.dify.ai/plugin-dev-zh ）Configure plugin environment.
 
 2. **Configure plugins**:
 - In the Dify platform, go to 'Studio' ->'Create Application' ->'Add Plugin'.
-- Select the Sapientia plugin and add it to your application workflow.
+- Select the SeekTime Super Rag Component and add it to your application workflow.
 
 3. **Set Parameters**:
 - Configure the following parameters:
-- Origin (optional): Remote server address, default value is` http://www.sapientia.work:43013 `.
+- Origin (optional): Remote server address, default value is` https://www.seek-time.com:43032 `.
 - Token (required): The access token used for authentication.
 - ` text ` (required): The query text entered by the user.
 - 'scopes' (required): Query scope, a comma separated string (such as' scope1, scope2 ').
 
 4. **Workflow Integration**:
-- In the Dify workflow, place the Sapientia plugin node in the appropriate position (such as after the user inputs the node).
+- In the Dify workflow, place the SeekTime Super Rag Component node in the appropriate position (such as after the user inputs the node).
 - Map user input variables (such as' sys. query ') to' text '.
-- Configure downstream nodes to receive output from Sapientia (text messages or formatted reference content).
+- Configure downstream nodes to receive output from the SeekTime Super Rag Component (text messages or formatted reference content).
 
 #### Example usage
 ##### Workflow configuration
 1. Create a Dify chatbot application.
-2. Add the Sapientia plugin node and set the parameters:
+2. Add the SeekTime Super Rag Component node and set the parameters:
 ```json
 {
-"origin": " http://www.sapientia.work:43013 ",
+"origin": " https://www.seek-time.com:43032 ",
 "token": "your-access-token",
 "text": "{{sys.query}}",
 "scopes": "knowledge,faq"
 }
 ```
-3. Connect the output of Sapientia to the LLM node or directly reply to the node to generate the final response.
+3. Connect the output of SeekTime Super Rag Component to the LLM node or directly reply to the node to generate the final response.
 4. Debug and release the application.
 
 ##### User interaction
@@ -67,7 +65,7 @@ The Sapientia plugin is a Dify plugin designed for the knowledge base Q&A produc
 - Output example:
 ```
 A knowledge base question answering system is an intelligent system that utilizes large-scale language models and knowledge base retrieval techniques to provide accurate answers. [1]
-<img src=' http://www.sapientia.work:43013/agents/api/v1/pdf_image/12345 ' />
+<img src=' https://www.seek-time.com:43032/agents/api/v1/pdf_image/12345 ' />
 ```
 
 #### Precautions

@@ -1,17 +1,17 @@
-version: 0.0.1
+version: 0.0.2
 type: plugin
-author: seek-time
-name: sapientia
+author: seektime
+name: SeekTime Super Rag Component
 label:
-  en_US: sapientia
-  ja_JP: sapientia
-  zh_Hans: sapientia
-  pt_BR: sapientia
+  en_US: super rag
+  ja_JP: super rag
+  zh_Hans: super rag
+  pt_BR: super rag
 description:
-  en_US: Sapientia is a tool for seek-time AI knowledge base Q&A conversations！
-  ja_JP: Sapientia is a tool for seek-time AI knowledge base Q&A conversations！
-  zh_Hans: sapientia是求索时刻ai知识库问答对话的一个工具！
-  pt_BR: Sapientia is a tool for seek-time AI knowledge base Q&A conversations！
+  en_US: Automatic and precise slicing of document materials, powerful multimodal chart understanding ability, high accuracy of Q&A, and precise traceability of answers to the specific location of the original text, allowing you to immediately have the world's leading AI knowledge base capability!
+  ja_JP: Automatic and precise slicing of document materials, powerful multimodal chart understanding ability, high accuracy of Q&A, and precise traceability of answers to the specific location of the original text, allowing you to immediately have the world's leading AI knowledge base capability!
+  zh_Hans: 文档资料自动精准切片，超强多模态图表理解能力，问答准确率高、答案可精准溯源原文具体位置，让您立即拥有全球领先的AI知识库能力！
+  pt_BR: Automatic and precise slicing of document materials, powerful multimodal chart understanding ability, high accuracy of Q&A, and precise traceability of answers to the specific location of the original text, allowing you to immediately have the world's leading AI knowledge base capability!
 icon: icon.svg
 icon_dark: icon-dark.svg
 resource:
