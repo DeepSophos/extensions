@@ -1,12 +1,12 @@
 version: 0.0.2
 type: plugin
 author: seektime
-name: SeekTime Super Rag Component
+name: super_rag
 label:
-  en_US: super rag
-  ja_JP: super rag
-  zh_Hans: super rag
-  pt_BR: super rag
+  en_US: SeekTime Super Rag Component
+  ja_JP: SeekTime Super Rag Component
+  zh_Hans: 求索时刻AI知识库组件
+  pt_BR: SeekTime Super Rag Component
 description:
   en_US: Automatic and precise slicing of document materials, powerful multimodal chart understanding ability, high accuracy of Q&A, and precise traceability of answers to the specific location of the original text, allowing you to immediately have the world's leading AI knowledge base capability!
   ja_JP: Automatic and precise slicing of document materials, powerful multimodal chart understanding ability, high accuracy of Q&A, and precise traceability of answers to the specific location of the original text, allowing you to immediately have the world's leading AI knowledge base capability!
@@ -21,7 +21,7 @@ plugins:
   tools:
     - provider/sapientia.yaml
 meta:
-  version: 0.0.1
+  version: 0.0.2
   arch:
     - amd64
     - arm64

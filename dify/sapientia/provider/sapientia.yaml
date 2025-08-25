@@ -1,10 +1,10 @@
 identity:
-  author: "SeekTime"
-  name: "求索时刻AI知识库组件"
+  author: "seektime"
+  name: "super_rag"
   label:
-    en_US: "SeekTime Super Rag"
-    zh_Hans: "SeekTime Super Rag"
-    pt_BR: "SeekTime Super Rag"
+    en_US: "SeekTime Super Rag Component"
+    zh_Hans: "求索时刻AI知识库组件"
+    pt_BR: "SeekTime Super Rag Component"
   description:
     en_US: "Welcome to experience the world's leading, easy-to-use, and cost-effective multimodal AI native knowledge base system!"
     zh_Hans: "Welcome to experience the world's leading, easy-to-use, and cost-effective multimodal AI native knowledge base system!"
